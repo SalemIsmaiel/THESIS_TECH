@@ -1,0 +1,18 @@
+https://support.microsoft.com/en-us/windows/app-permissions-aea98a7c-b61a-1930-6ed0-47f0ed2ee15c
+https://support.microsoft.com/en-gb/windows/windows-desktop-apps-and-privacy-8b3b13bc-d8ff-5460-8423-7d5d5c1f6665
+https://learn.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations
+
+Packages in Registry:
+HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\Repository\Packages
+
+Installed at:
+C:\Program Files\WindowsApps\
+
+Configuration, and per-user data:
+C:\Users\<username>\AppData\Local\Packages
+
+https://learn.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes
+https://social.technet.microsoft.com/Forums/en-US/a9f30534-8d91-4bdf-8864-3a64f4b71e04/deleting-data-from-appdatalocalpackages?forum=w8itproperf
+
+TODO test: Can Windows Desktop apps or UWP apps read any of these without the restricted capability?
+TODO test: Can Windows Desktop apps that are not from the Store, read any of these without administrator privileges?
